@@ -81,7 +81,7 @@ def time_stats(df):
     start_time = time.time()
 
     # TO DO: display the most common month
-    most_common_month=df["month"].mode()
+    most_common_month=df["month"].mode()[0]
     print("the most common month is :".format(most_common_month))
 
 
