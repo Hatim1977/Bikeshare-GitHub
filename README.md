@@ -56,7 +56,7 @@ def get_filters():
     return city, month, day
 
 
-
+#
 
 def load_data(city, month, day):
     """
@@ -81,7 +81,7 @@ def time_stats(df):
     start_time = time.time()
 
     # TO DO: display the most common month
-    most_common_month=df["month"].mode()[0]
+    most_common_month=df["month"].mode()
     print("the most common month is :".format(most_common_month))
 
 
